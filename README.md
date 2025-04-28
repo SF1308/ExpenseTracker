@@ -1,7 +1,7 @@
 # ExpenseTracker
 
 ## Overview
-ExpenseTracker is a simple Express.js application designed to help users track their expenses efficiently. This application provides a user-friendly interface to manage and categorize expenses.
+ExpenseTracker is a simple Express.js application designed to help users track their expenses efficiently.
 
 ## Features
 - User authentication
@@ -13,15 +13,10 @@ ExpenseTracker is a simple Express.js application designed to help users track t
 
 1. Clone the repository:
    ```
-   git clone <repository-url>
+   git clone (https://github.com/SF1308/ExpenseTracker)
    ```
 
-2. Navigate to the project directory:
-   ```
-   cd express-app
-   ```
-
-3. Install the dependencies:
+2. Install the dependencies:
    ```
    npm install
    ```
@@ -36,11 +31,3 @@ npm start
 ```
 
 The application will be available at `http://localhost:3000`.
-
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request for any enhancements or bug fixes.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
