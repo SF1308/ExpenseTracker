@@ -1,0 +1,20 @@
+{
+  "name": "express-app",
+  "version": "1.0.0",
+  "description": "A simple Express.js application for tracking expenses.",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "author": "Santiago",
+  "license": "MIT"
+}

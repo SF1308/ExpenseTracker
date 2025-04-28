@@ -1,0 +1,13 @@
+
+
+# Exceptions: allow tracking of files in the repository
+!.gitignore
+
+# Ignore common automatically generated folders
+node_modules/
+dist/
+build/
+.env
+.DS_Store
+.idea/
+.vscode/
