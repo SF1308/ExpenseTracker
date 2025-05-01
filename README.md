@@ -1,8 +1,8 @@
-# ExpenseTracker
-
 # Expense Tracker CLI
 
 A simple command-line interface (CLI) tool for tracking expenses.
+
+The idea for this project was inspired by https://roadmap.sh/projects/expense-tracker
 
 ## Description
 
