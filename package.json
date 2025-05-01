@@ -1,20 +1,19 @@
 {
-  "name": "express-app",
+  "name": "Expense tracker CLI app ",
   "version": "1.0.0",
   "description": "A simple Express.js application for tracking expenses.",
   "main": "src/app.js",
   "type": "module",
   "scripts": {
-    "start": "node src/app.js",
-    "dev": "nodemon src/app.js"
+    "build": "tsc",
+    "cli": "node dist/index.js"
   },
   "dependencies": {
-    "express": "^4.17.1",
-    "dotenv": "^10.0.0"
+    "commander": "^13.1.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.7"
+    "@types/node": "^22.15.3"
   },
-  "author": "Santiago",
+  "author": "",
   "license": "MIT"
 }
