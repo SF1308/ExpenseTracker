@@ -12,19 +12,8 @@ This CLI application allows you to easily add, list, and manage your expenses di
 
 * Add new expenses with descriptions and amounts.
 * List all recorded expenses.
-* (Potencialmente: Delete expenses by ID - si implementaste esta funcionalidad)
+* Delete expenses by ID 
 
-## Table of Contents
-
-* [Installation](#installation)
-* [Usage](#usage)
-* [Commands](#commands)
-* [Configuration](#configuration)
-* [File Structure](#file-structure)
-* [Technologies Used](#technologies-used)
-* [Contributing](#contributing)
-* [License](#license)
-* [Author](#author)
 
 ## Installation
 
