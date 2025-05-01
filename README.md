@@ -1,33 +1,97 @@
 # ExpenseTracker
 
-## Overview
-ExpenseTracker is a simple Express.js application designed to help users track their expenses efficiently.
+# Expense Tracker CLI
+
+A simple command-line interface (CLI) tool for tracking expenses.
+
+## Description
+
+This CLI application allows you to easily add, list, and manage your expenses directly from the terminal. It's built with Node.js and TypeScript, using `commander` for handling CLI commands.
 
 ## Features
-- User authentication
-- Expense tracking
-- Categorization of expenses
-- Data visualization (charts and graphs)
+
+* Add new expenses with descriptions and amounts.
+* List all recorded expenses.
+* (Potencialmente: Delete expenses by ID - si implementaste esta funcionalidad)
+
+## Table of Contents
+
+* [Installation](#installation)
+* [Usage](#usage)
+* [Commands](#commands)
+* [Configuration](#configuration)
+* [File Structure](#file-structure)
+* [Technologies Used](#technologies-used)
+* [Contributing](#contributing)
+* [License](#license)
+* [Author](#author)
 
 ## Installation
 
-1. Clone the repository:
-   ```
-   git clone (https://github.com/SF1308/ExpenseTracker)
-   ```
+1.  **Clone the repository:**
 
-2. Install the dependencies:
-   ```
-   npm install
-   ```
+    ```bash
+    git clone <your_repository_url>
+    cd <your_repository_name>
+    ```
 
-4. Create a `.env` file in the root directory and add your environment variables.
+2.  **Install dependencies:**
+
+    ```bash
+    npm install
+    ```
 
 ## Usage
 
-To start the application, run:
-```
-npm start
-```
+To use the CLI, you need to compile the TypeScript code and then execute the CLI script.
 
-The application will be available at `http://localhost:3000`.
+1.  **Compile TypeScript:**
+
+    ```bash
+    npm run build
+    ```
+
+2.  **Execute the CLI:**
+
+    ```bash
+    npm run cli
+    ```
+
+## Commands
+
+Here's how to use the available commands:
+
+* **Add an expense:**
+
+    ```bash
+    npm run cli add "<description>" <amount>
+    ```
+
+    * `<description>`:  A brief description of the expense (e.g., "Groceries", "Gas").
+    * `<amount>`:  The amount of the expense (e.g., 25.50).
+
+    Example:
+
+    ```bash
+    npm run cli add "Lunch with colleagues" 18.75
+    ```
+
+* **List all expenses:**
+
+    ```bash
+    npm run cli list
+    ```
+
+* **(Potencialmente) Delete an expense:**
+
+    ```bash
+    npm run cli delete <id>
+    ```
+
+    * `<id>`:  The unique ID of the expense to delete.
+
+    Example:
+
+    ```bash
+    npm run cli delete 12
+    ```
