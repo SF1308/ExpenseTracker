@@ -20,8 +20,8 @@ This CLI application allows you to easily add, list, and manage your expenses di
 1.  **Clone the repository:**
 
     ```bash
-    git clone <your_repository_url>
-    cd <your_repository_name>
+    git clone https://github.com/SF1308/ExpenseTracker
+    cd ExpenseTracker
     ```
 
 2.  **Install dependencies:**
